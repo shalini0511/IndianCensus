@@ -11,11 +11,16 @@ namespace UnitTestProject1
         CsvAdapterFactory getCensusAdapter;
 
         //Path for Indian State Census
-        string censusFilePath = @"C:\Users\HP\source\repos\IndianCensusProject\IndianCensusProject\IndianStateCensusInformation.csv";
-        string invalidFileCsvPath = @"C:\Users\HP\source\repos\IndianCensusProject\IndianCensusProject\InvalidCensusFile.csv";
-        string invalidFileTypePath = @"C:\Users\HP\source\repos\IndianCensusProject\IndianCensusProject\InvalidCensusFile.css";
-        string invalidDelimiterFilePath = @"C:\Users\HP\source\repos\IndianCensusProject\IndianCensusProject\IndianStateCensusWithInvalidDelimiter.csv";
-        string invalidHeaderFilePath = @"C:\Users\HP\source\repos\IndianCensusProject\IndianCensusProject\IndianStateCensusWithInvalidHeader.csv";
+        string stateCensusDataPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\IndiaStateCensusData.csv";
+        string wrongstateCensusDataPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\IndiaStateCensusD.csv";
+        string wrongstateCensusDataCSVPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\IndiaStateCensusData.txt";
+        string wrongDelimiterstateCensusDataCSVPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\WrongDelimiterIndiaStateCensusData.csv";
+        string wrongHeaderstateCensusDataCSVPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\WrongHeaderIndiaStateCensusData.csv";
+        string stateCodeDataPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\IndiaStateCode.csv";
+        string wrongStateCodeDataPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\IndiaStateC.csv";
+        string wrongStateCodeDataCSVPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\WrongStateCodeDataCSVPath.txt";
+        string wrongDelimiterStateCodeDataPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\WrongDelimiterStateCodeDataPath.csv";
+        string wrongHeaderStateCodeDataPath = @"C:\Users\HP\source\repos\IndianStatesCensusAnalyser\IndianStatesCensusAnalyser\WrongHeaderStateCodeDataPath.csv";
 
 
         [TestInitialize]
